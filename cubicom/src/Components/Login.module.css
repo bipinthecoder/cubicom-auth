@@ -1,37 +1,37 @@
-/** {*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*    outline: 0;*/
-/*    font-size: 100%;*/
-/*}*/
-.container{
-    margin-top: 0vh;
+.mainContainer{
+    border: 1px solid black;
+}
+
+.landingContainer{
+    width: 1366px;
+    height: 768px;
+    border: 1px solid black;
+    margin: 10% auto;
     display: flex;
     flex-direction: row;
 }
+
 .bgImage{
-    /*background-image: url("/CCR1000BT_IMG3.png");*/
-    background-image: url("../utils/CCR1000BT_IMG3.png");
-    top: 0px;
-    left: 0px;
+    float: left;
     width: 1083px;
     height: 768px;
+    background-image: url("../utils/CCR1000BT_IMG3.png");
+    opacity: 1;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     position: absolute;
-    z-index: -1;
-
 }
-
 .loginDiv{
+    float: left;
     top: 0px;
     left: 800px;
     width: 566px;
     height: 768px;
+    border: 1px solid blue;
     background: #FAFAFA 0% 0% no-repeat padding-box;
     box-shadow: 0px 0px 48px #2C2C2C33;
     border-radius: 30px 0px 0px 30px;
     opacity: 1;
     z-index: 1;
     position: relative;
-    border: 1px solid black;
-
 }
