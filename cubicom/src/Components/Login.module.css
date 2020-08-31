@@ -1,11 +1,9 @@
 .mainContainer{
-    border: 1px solid black;
 }
 
 .landingContainer{
     width: 1366px;
     height: 768px;
-    border: 1px solid black;
     margin: 10% auto;
     display: flex;
     flex-direction: row;
