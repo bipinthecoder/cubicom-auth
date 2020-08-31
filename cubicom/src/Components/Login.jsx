@@ -10,6 +10,7 @@ class Login extends Component {
                     <div className={`${style.bgImage}`}>
                     </div>
                     <div className={`${style.loginDiv}`}>
+                        <LoginDiv/>
                     </div>
                 </div>
 
