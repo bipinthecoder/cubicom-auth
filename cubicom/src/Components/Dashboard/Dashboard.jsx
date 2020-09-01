@@ -45,8 +45,8 @@ class Dashboard extends Component {
                                 <img className={`${style.cal}`} src="cal.svg" alt="search"></img>
                                 <div className={`${style.date}`}>12/12/2019 - 18/12/2019</div>
                             </div>
-                            <div style={{display:"flex",marginTop:"4%",marginLeft:"2%"}}>
-                                <div style={{display:"flex",marginTop:"4%",marginLeft:"2%"}}>
+                            <div style={{display:"flex",marginTop:"4%"}}>
+                                <div style={{display:"flex",marginTop:"4%",marginLeft:"2%"}} className={`${style.bg}`}>
                                     {data && data.map(item => (
                                         <Card data = {item}/>
                                     ))}
