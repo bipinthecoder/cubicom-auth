@@ -4,36 +4,36 @@
     "DEL": 34,
     "UNDEL": "27",
     "NA": 0,
-    "DELIVERY IN %": "97%"
+    "DELIVERY_IN_%": 97
   },{
-    "name": "Daarun Shaikh",
+    "name": "Daha Mosin",
     "DEL": 34,
     "UNDEL": "27",
     "NA": 0,
-    "DELIVERY IN %": "97%"
+    "DELIVERY_IN_%": 86
   },{
-    "name": "Daarun Shaikh",
+    "name": "Dahana Gaitonde",
     "DEL": 34,
     "UNDEL": "27",
     "NA": 0,
-    "DELIVERY IN %": "97%"
+    "DELIVERY_IN_%": 78
   },{
-    "name": "Daarun Shaikh",
+    "name": "Ganesh Gaitonde",
     "DEL": 34,
     "UNDEL": "27",
     "NA": 0,
-    "DELIVERY IN %": "97%"
+    "DELIVERY_IN_%": 74
   },{
-    "name": "Daarun Shaikh",
+    "name": "Johnny smith",
     "DEL": 34,
     "UNDEL": "27",
     "NA": 0,
-    "DELIVERY IN %": "97%"
+    "DELIVERY_IN_%": 72
   },{
-    "name": "Daarun Shaikh",
+    "name": "Falcon Mauly",
     "DEL": 34,
     "UNDEL": "27",
     "NA": 0,
-    "DELIVERY IN %": "97%"
+    "DELIVERY_IN_%": 70
   }
 ]
