@@ -1,0 +1,58 @@
+.container{
+    width: 1366px;
+    height: 768px;
+    margin: 10% auto;
+    border: 1px solid black;
+}
+.mainContent{
+    display: flex;
+    flex-direction: row;
+}
+.sideBar{
+    width: 200px;
+    border:1px solid black;
+    height: 698px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.main{
+    width: 1166px;
+    border:1px solid black;
+    height: 100%;
+}
+.sideBarLogos{
+    top: 24px;
+    left: 16px;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    opacity: 1;
+}
+.sideBarWrite{
+    top: 7px;
+    left: 48px;
+    width: 70px;
+    height: 17px;
+    text-align: left;
+    position: relative;
+    font: normal normal bold 14px/17px Proxima Nova;
+    letter-spacing: 0px;
+    color: #2C2C2C;
+    opacity: 1;
+}
+.dashboard{
+    background: transparent url("../../utils/dashboard-24px.svg") 0% 0% no-repeat padding-box;
+}
+
+.operations{
+    background: transparent url("../../utils/operations.svg") 0% 0% no-repeat padding-box;
+}
+.tracking{
+    background: transparent url("../../utils/tracking.svg") 0% 0% no-repeat padding-box;
+}
+.reports{
+    background: transparent url("../../utils/reports.svg") 0% 0% no-repeat padding-box;
+}
+.configs{
+    background: transparent url("../../utils/configurations.svg") 0% 0% no-repeat padding-box;
+}

@@ -4,9 +4,19 @@ class NavBar extends Component {
     render() {
         return (
             <div className={`${style.container}`}>
-                NavBar
-                <div>Logo</div>
-                <div>Location</div>
+                <div className={`${style.logo}`}>
+
+                </div>
+                <div className={`${style.locationDiv}`}>
+                    <div className={`${style.input}`}>
+                        <select>
+                            <option>Location 1</option>
+                        </select>
+                    </div>
+                    <div className={`${style.displayPicture}`}>
+
+                    </div>
+                </div>
             </div>
         );
     }
