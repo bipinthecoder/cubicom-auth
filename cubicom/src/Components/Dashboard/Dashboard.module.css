@@ -18,7 +18,7 @@
 .main{
     width: 1166px;
     border:1px solid black;
-    height: 100%;
+    height: 698px;
 }
 .sideBarLogos{
     top: 24px;
@@ -55,4 +55,53 @@
 }
 .configs{
     background: transparent url("../../utils/configurations.svg") 0% 0% no-repeat padding-box;
+}
+
+.mainTitle{
+    top: 24px;
+    left: 24px;
+    bottom: 0px;
+    position: relative;
+    width: 109px;
+    height: 27px;
+    text-align: left;
+    font: normal normal bold 22px/27px Proxima Nova;
+    letter-spacing: 0px;
+    color: #2C2C2C;
+    opacity: 1;
+}
+.search{
+    top: 24px;
+    left: 813px;
+    bottom: 5px;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: #EAEAEA 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+}
+.cal{
+    top: 24px;
+    left: 850px;
+    bottom: 5px;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: #EAEAEA 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+}
+.date{
+    top: 24px;
+    left: 880px;
+    width: 120px;
+    height: 15px;
+    position: relative;
+    text-align: left;
+    font: normal normal normal 12px/15px Proxima Nova;
+    letter-spacing: 0px;
+    color: #2C2C2C;
+    opacity: 1;
+    vertical-align: top;
 }
