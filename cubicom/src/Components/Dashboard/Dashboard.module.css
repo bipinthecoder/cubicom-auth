@@ -2,7 +2,7 @@
     width: 1366px;
     height: 768px;
     margin: 10% auto;
-    border: 1px solid black;
+    border: 1px solid #F5F5F5;
     background-color: #FAFAFA;
 }
 .mainContent{
@@ -11,14 +11,14 @@
 }
 .sideBar{
     width: 200px;
-    border:1px solid black;
+    /*border:1px solid black;*/
     height: 698px;
     background: #F5F5F5 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 .main{
     width: 1166px;
-    border:1px solid black;
+    /*border:1px solid black;*/
     height: 698px;
 }
 .sideBarLogos{
@@ -118,6 +118,9 @@
 }
 .bg{
     background-color: #fff;
-    /*border: 1px solid black;*/
     padding: 2%;
+}
+.tableDiv{
+    margin-top: 4%;
+    margin-left: 24px;
 }

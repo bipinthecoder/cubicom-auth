@@ -52,7 +52,14 @@ class Dashboard extends Component {
                                     ))}
                                 </div>
                                 <div className={`${style.circle}`}></div>
+                            </div>
 
+                            <div>
+                                <div className={`${style.mainTitle}`} style={{width:"159px"}}>FE Performance</div>
+                            </div>
+
+                            <div className={`${style.tableDiv}`}>
+                                Table
                             </div>
                         </div>
                     </div>
