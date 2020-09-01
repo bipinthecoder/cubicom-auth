@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import NavBar from "./NavBar";
 import LoginDiv from "../LoginDiv";
-import style from "./Dashboard.module.css"
+import style from "./Dashboard.module.css";
+import data from "../../utils/cardDetails.json";
+import Card from "./Card";
 
 class Dashboard extends Component {
     constructor(props) {
@@ -43,7 +45,13 @@ class Dashboard extends Component {
                                 <img className={`${style.cal}`} src="cal.svg" alt="search"></img>
                                 <div className={`${style.date}`}>12/12/2019 - 18/12/2019</div>
                             </div>
-                            <div>
+                            <div style={{display:"flex",marginTop:"4%",marginLeft:"2%"}}>
+                                <div style={{display:"flex",marginTop:"4%",marginLeft:"2%"}}>
+                                    {data && data.map(item => (
+                                        <Card data = {item}/>
+                                    ))}
+                                </div>
+                                <div className={`${style.circle}`}></div>
 
                             </div>
                         </div>

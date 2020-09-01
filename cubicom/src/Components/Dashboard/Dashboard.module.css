@@ -105,3 +105,14 @@
     opacity: 1;
     vertical-align: top;
 }
+
+.circle{
+    margin: 4% 0px 0px 2%;
+
+    width: 152px;
+    height: 152px;
+    background: #86D5A2 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+    border-radius: 100%;
+}

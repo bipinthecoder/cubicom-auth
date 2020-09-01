@@ -1,0 +1,26 @@
+[
+  {
+    "number": 121,
+    "title": "BOOKING",
+    "mute": "No. of Waybills",
+    "icon": "icon_booking.svg"
+  },
+  {
+    "number": 55,
+    "title": "OFD",
+    "mute": "Out For Delivery",
+    "icon": "icon_ofd.svg"
+  },
+  {
+    "number": 430,
+    "title": "DEL",
+    "mute": "Delivered",
+    "icon": "icon_booking.svg"
+  },
+  {
+    "number": 23,
+    "title": "UNDEL",
+    "mute": "Undelivered",
+    "icon": "icon_booking.svg"
+  }
+]

@@ -1,0 +1,50 @@
+.cardContainer{
+    width: 220px;
+    height: 150px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    border: 1px solid green;
+    margin-right: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.number{
+    width: 51px;
+    height: 44px;
+    margin-top: 21px;
+    margin-left: 16px;
+
+    text-align: left;
+    font: normal normal bold 36px/44px Proxima Nova;
+    letter-spacing: 0px;
+    color: #B3B3B3;
+    opacity: 1;
+}
+.titleDiv{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    margin-top: 33px;
+    margin-left: 16px;
+    text-align: left;
+    width: 64px;
+    height: 17px;
+    font: normal normal bold 14px/17px Proxima Nova;
+    letter-spacing: 0px;
+    color: #2C2C2C;
+    opacity: 1;
+}
+.mute{
+    margin-top: 3px;
+    margin-left: 16px;
+    width: 77px;
+    height: 15px;
+    text-align: left;
+    font: normal normal normal 12px/15px Proxima Nova;
+    letter-spacing: 0px;
+    color: #8E8E8E;
+    opacity: 1;
+}
