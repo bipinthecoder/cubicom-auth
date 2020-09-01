@@ -4,6 +4,10 @@
   <p>Home Page:<p>
   <img src="Cubicom-1.png"  width="900px" height="500px">
 <p>
+ <p align = center>
+  <p>Dashboard:<p>
+  <img src="cubicom-2.png"  width="900px" height="500px">
+<p>
 
 ### How to run
 * Clone the repo
