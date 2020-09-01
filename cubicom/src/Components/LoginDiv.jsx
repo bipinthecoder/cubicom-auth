@@ -70,7 +70,7 @@ class LoginDiv extends Component {
                 </div>
                 <div className={`${style.inputDiv} ${style.flexCol}`}>
                     <p className={`${style.tagLine}`}>Password</p>
-                    <input onChange={this.handleChange} name={"password"} value={this.state.password} type={"text"} placeholder={"Enter Password"}/>
+                    <input style={{border:"none"}} onChange={this.handleChange} name={"password"} value={this.state.password} type={"password"} placeholder={"Enter Password"}/>
                 </div>
                 <button onClick={this.handleSubmit} className={`${style.button}`}>Login</button>
             </div>

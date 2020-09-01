@@ -146,5 +146,8 @@ td{
 .progressCol{
     display: flex;
 }
+.tableWrite{
+    font: normal normal normal 12px/15px Proxima Nova;
+}
 
 

@@ -71,10 +71,10 @@ class Dashboard extends Component {
                                 {
                                     tableData && tableData.map(item => (
                                         <tr>
-                                            <td>{item.name}</td>
-                                            <td>{item.DEL}</td>
-                                            <td>{item.UNDEL}</td>
-                                            <td>{item.NA}</td>
+                                            <td className={`${style.tableWrite}`}>{item.name}</td>
+                                            <td className={`${style.tableWrite}`}>{item.DEL}</td>
+                                            <td className={`${style.tableWrite}`}>{item.UNDEL}</td>
+                                            <td className={`${style.tableWrite}`}>{item.NA}</td>
                                             <td className={`${style.progressCol}`}>
 
                                                 {item["DELIVERY_IN_%"]}%
