@@ -6,7 +6,7 @@
 <p>
  <p align = center>
   <p>Dashboard:<p>
-  <img src="cubicom-2.png"  width="900px" height="500px">
+  <img src="cubicom-3.png"  width="900px" height="500px">
 <p>
 
 ### How to run
